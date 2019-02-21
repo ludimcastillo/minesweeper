@@ -1,0 +1,25 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "A Minesweeper game.",
+  "main": "board.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludimcastillo/minesweeper.git"
+  },
+  "author": "Ludim Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludimcastillo/minesweeper/issues"
+  },
+  "homepage": "https://github.com/ludimcastillo/minesweeper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}
